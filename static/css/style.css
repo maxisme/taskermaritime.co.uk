@@ -385,7 +385,7 @@ a img:hover, a img:focus, a img:active {
 
 .full-image {
   position: absolute;
-  background: url("/images/bg3_blur.png") no-repeat center center fixed;
+  background: url("/images/bg_blur.png") no-repeat center center fixed;
   transition: background 0.5s linear;
   min-width: 100% !important;
   min-height: 100% !important;
