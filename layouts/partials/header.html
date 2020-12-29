@@ -39,7 +39,7 @@
             <h1><a href="/">Tasker<br>Maritime</a></h1>
         </div>
         {{ with .Site.GetPage "_index.md" }}
-            <p class="info">{{ .Params.description }}</p>
+            <p class="info">{{ .Params.description | markdownify }}</p>
         {{ end }}
     </div>
     <!--- blog post -->
