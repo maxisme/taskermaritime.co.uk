@@ -1,0 +1,5 @@
+baseURL = "https://taskermaritime.co.uk/"
+languageCode = "en-gb"
+title = "Tasker Maritime"
+[outputs]
+home = ["HTML", "RSS", "JSON"]
