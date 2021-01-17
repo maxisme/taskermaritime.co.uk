@@ -1,0 +1,6 @@
+ingress:
+  match: "Host(`taskermaritime.co.uk`)"
+
+image:
+  repository: "maxisme/taskermaritime.co.uk"
+        
